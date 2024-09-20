@@ -12,12 +12,15 @@ git status - display the files in workspace and staging
 git add <filename> -- move file from workspace to staging
 git add . / git add * / git add -A  --- move multiple files from workspace to staging
 git commit -m "lable name" -- move file from staging to local repo
+
 git log -- show all the commits done with author details and time
 git show -- show the details of file and commit, time etc.,
 git reset head <filename> -- move back file from staging to workspace
 git reset --soft <cid n-1>
 
-
+file delete
+===========
+rm filename
 
 
 Open fresh git bash
